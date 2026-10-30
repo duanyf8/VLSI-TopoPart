@@ -1,0 +1,21 @@
+# 编译生成目录和临时文件
+build/
+build-*/
+*.o
+*.obj
+*.exe
+*.pdb
+main
+
+# 本地缓存和 AI 工具缓存目录
+.agents/
+.claude/
+.codex/
+
+# 测试结果和打包压缩包
+results/
+*.zip
+
+# 大型 benchmark 数据集文件夹（只传代码，数据集按 README 自行下载）
+benchmark/
+ICCAD2021-Benchmarks/
